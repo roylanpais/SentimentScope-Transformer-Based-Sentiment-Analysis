@@ -1,10 +1,8 @@
 # SentimentScope Project Report: Transformer-Based Sentiment Analysis
 
-## Executive Summary
-
 The **SentimentScope** project successfully implemented a transformer-based deep learning model for binary sentiment classification of IMDB movie reviews. The project achieved its primary objective of building a custom transformer architecture from scratch, training it on 25,000 movie reviews, and demonstrating competency in advanced NLP techniques using PyTorch. The model was designed to classify reviews as positive or negative, supporting CineScope's goal of enhancing its recommendation system through better understanding of user sentiment.
 
-![Complete pipeline workflow of the SentimentScope sentiment analysis project from data loading to model evaluation](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c18a934908485a54ee12ea71046bf86d/87769721-52e8-4ba6-8ce0-e2a8053c51b5/c4c7ba2a.png)
+![Complete pipeline workflow of the SentimentScope sentiment analysis project from data loading to model evaluation](./Information/pipeline.png)
 
 Complete pipeline workflow of the SentimentScope sentiment analysis project from data loading to model evaluation
 
@@ -14,7 +12,8 @@ Complete pipeline workflow of the SentimentScope sentiment analysis project from
 
 The project implemented a custom transformer model called **DemoGPT**, specifically adapted for binary classification tasks. The architecture consists of several interconnected components that process sequential text data through multiple attention mechanisms.
 
-![Architecture breakdown showing the dimensionality flow through each layer of the SentimentScope transformer model](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c18a934908485a54ee12ea71046bf86d/fb58cc03-14fc-4ffa-9136-c7a103e41681/2c5673b4.png)
+![Architecture breakdown showing the dimensionality flow through each layer of the SentimentScope transformer model](./Information/chart.png)
+
 
 Architecture breakdown showing the dimensionality flow through each layer of the SentimentScope transformer model
 
