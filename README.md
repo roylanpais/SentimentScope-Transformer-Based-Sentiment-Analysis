@@ -1,4 +1,4 @@
-# SentimentScope Project Report: Transformer-Based Sentiment Analysis
+# SentimentScope: Transformer-Based Sentiment Analysis
 
 The **SentimentScope** project successfully implemented a transformer-based deep learning model for binary sentiment classification of IMDB movie reviews. The project achieved its primary objective of building a custom transformer architecture from scratch, training it on 25,000 movie reviews, and demonstrating competency in advanced NLP techniques using PyTorch. The model was designed to classify reviews as positive or negative, supporting CineScope's goal of enhancing its recommendation system through better understanding of user sentiment.
 
@@ -137,7 +137,7 @@ The modular architecture can be scaled up (more layers, larger embeddings, more 
 **Real-World Deployment**
 The model architecture is production-ready, capable of processing user reviews in real-time to extract sentiment signals for downstream recommendation algorithms.
 
-### Learning Outcomes
+## Learning Outcomes
 
 **End-to-End ML Pipeline**
 Gained comprehensive experience building machine learning systems from data loading through model deployment, covering every stage of the ML lifecycle.
