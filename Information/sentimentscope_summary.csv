@@ -1,0 +1,18 @@
+Component,Value
+Dataset,IMDB Movie Reviews
+Training Samples,"22,500 (90% of train)"
+Validation Samples,"2,500 (10% of train)"
+Test Samples,"25,000"
+Tokenizer,bert-base-uncased
+Max Sequence Length,128 tokens
+Model Architecture,Transformer (DemoGPT)
+Embedding Dimension,128
+Transformer Layers,4
+Attention Heads,4 (head_size=32)
+Dropout Rate,0.1
+Batch Size,32
+Training Epochs,5
+Optimizer,AdamW
+Learning Rate,3e-4
+Loss Function,CrossEntropyLoss
+Target Accuracy,>75%
